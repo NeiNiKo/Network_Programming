@@ -219,9 +219,28 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-#GitignoreLB
-**/.env
+# Environment variables and secrets
 .env
+**/.env
+
+# Schedule files
 *.csv
 *.xls
 TimeTable*
+
+# PyCharm
+.idea/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database
+LB2/events.db
+LB2/events.db-journal
+LB2/events.db-wal
+LB2/events.db-shm
