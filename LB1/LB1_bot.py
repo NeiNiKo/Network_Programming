@@ -9,11 +9,9 @@ from telegram.ext import (
     CommandHandler,
     ContextTypes, CallbackQueryHandler,
 )
-
 from LB1_schedule import format_schedule_message, parse_schedule_by_range
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO,)
-
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
 

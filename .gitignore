@@ -244,3 +244,9 @@ LB2/events.db
 LB2/events.db-journal
 LB2/events.db-wal
 LB2/events.db-shm
+
+# LB3 - CS2 Inventory API
+LB3/inventory.db
+LB3/inventory.db-journal
+LB3/inventory.db-wal
+LB3/inventory.db-shm
