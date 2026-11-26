@@ -250,3 +250,8 @@ LB3/inventory.db
 LB3/inventory.db-journal
 LB3/inventory.db-wal
 LB3/inventory.db-shm
+
+/LB4/received_files/
+
+# LB4 - Unit testing HTML coverage report
+!/LB4/htmlcov/
